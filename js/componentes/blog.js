@@ -20,7 +20,7 @@ Vue.component('blog', {
 
                 comentarios: [
                     {
-                        textoComentario: "Lorem ipsum dolor sit amet consectetur adipiscing elit vel ridiculus justo vulputate consequat eget pulvinar euismod natoque praesent dapibus cubilia placerat integer, tempus magna ad accumsan eros risus etiam stibulum facilisi.",
+                        /*textoComentario: "Lorem ipsum dolor sit amet consectetur adipiscing elit vel ridiculus justo vulputate consequat eget pulvinar euismod natoque praesent dapibus cubilia placerat integer, tempus magna ad accumsan eros risus etiam stibulum facilisi.",*/
                         autor: "Analía"
                     },
                     {

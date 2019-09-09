@@ -36,12 +36,14 @@ Vue.component('tarjeta', {
                         <h6 class="text-mute">Comentarios</h6>
                         <ul>
                             <li v-for="comentario of notasd[0].comentarios">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <p class="card-text">{{comentario.textoComentario}}</p>
+                               <template v-if="comentario.textoComentario != null">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <p class="card-text">{{comentario.textoComentario}}</p>
+                                        </div>
+                                        <div class="card-footter text-muted pl-5">{{comentario.autor}}</div>
                                     </div>
-                                    <div class="card-footter text-muted pl-5">{{comentario.autor}}</div>
-                                </div>
+                                </template>
                             </li>
                         </ul>
                     </div>
