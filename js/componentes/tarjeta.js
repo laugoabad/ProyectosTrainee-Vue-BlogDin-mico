@@ -21,7 +21,7 @@ Vue.component('tarjeta', {
         </section>
       
         <template v-else>
-            <button class="btn btn-primary ml-4" @click="checkLeerMas(index)">Volver</button>
+            <button class="btn btn-primary ml-4" @click="leerMas = !leerMas">Volver</button>
             <section class="row d-flex justify-content-center mt-5">
                 <article class="card col-11 ">
                     <div class="row autor">
